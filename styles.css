@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*background-color: #eaeaea;*/
+  font-family: sans-serif;
+}
+
+h2 {
+  /*color: magenta;*/
+  text-align: center;
+}
+
+.player-search {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.music-player {
+  /*-webkit-appearance:none;*/
+  width: 67vw;
+  /*margin-bottom: 0.5rem;*/
+
+}
+
+*audio::-webkit-media-controls-panel {
+  width: 100%;
+  height: 4rem;
+  border: 1px solid black;
+}
+
+audio::-webkit-media-controls-play-button {
+  color: black;
+}
+
+.search {
+  margin: .75rem 0;
+}
+
+.search-form input{
+  width: 60vw;
+  height: 2rem;
+  padding-left: 1rem;
+  border: 1px solid black;
+}
+
+.button {
+  height: 2rem;
+  padding: 0 1.875rem;
+  border: 1px solid black;
+  background-color: white;
+
+}
+
+.results-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.result-item {
+  width: 17vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.result-artwork {
+  pointer-events: none;
+  height: 16vw;
+  margin-bottom: 0.5rem;
+}
+
+.result-artwork img{
+  width: 16vw;
+  height: auto;
+}
+
+.result-title {
+  pointer-events: none;
+  font-size: 0.75rem;
+  width: 14vw;
+  color: #333333;
+}
+
+.result-title p{
+
+}

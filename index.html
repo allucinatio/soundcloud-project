@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SoundCloud Music Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>¯\_(ツ)_/¯ <img src="https://developers.soundcloud.com/assets/powered_by_black-4339b4c3c9cf88da9bfb15a16c4f6914.png"> ¯\_(ツ)_/¯</h2>
+    </header>
+    <div class="player-search">
+    <section class="player">
+      <audio class="music-player" controls="controls" src=""></audio>
+      <p class="now-playing"></p>
+    </section>
+    <section class="search">
+      <form class="search-form" method="get" onsubmit="searchSubmit(); return false;">
+      <input type="text" class="search-box" placeholder="Search for artist" id="search-box" name="q">
+      <button type="submit" class="button" value="submit">Search</button>
+      </form>
+    </section>
+    </div>
+    <section class="results">
+      <div class="results-grid">
+
+      </div>
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
